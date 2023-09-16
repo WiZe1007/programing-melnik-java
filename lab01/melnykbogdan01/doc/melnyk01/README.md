@@ -43,7 +43,7 @@
 В програмі міститься тількі один класс.
    
 **Важливі фрагменти програми**
-
+```
     private static void countEvenAndOdd() {
             int evenCount = 0;
             int oddCount = 0;
@@ -60,7 +60,8 @@
             // Виводимо результати на консоль
             System.out.println("Even numbers: " + evenCount);
             System.out.println("Odd numbers: " + oddCount);
-
+```
+```
     private static void numberOfOnes() {
             int count = 0;
             // Проходимо через кожен елемент масиву чисел
@@ -80,6 +81,7 @@
             // Виводимо результат на консоль
             System.out.println("Number of ones: " + count);
         }
+```
 
 ### Структура програми
 ```
