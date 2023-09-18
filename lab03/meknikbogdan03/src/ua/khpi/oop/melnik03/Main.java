@@ -5,33 +5,36 @@
 import java.util.Scanner;
 
 public class Main {
-public static void main(String[] args) {
-    // Створюємо об'єкт Scanner для зчитування введення з консолі
-    Scanner scanner = new Scanner(System.in);
 
-    // Запитуємо користувача ввести номер студента
-    System.out.print("Введіть номер студента в журналі групи: ");
-        
-    // Зчитуємо введений номер студента
-    int studentNumber = scanner.nextInt();
+    public static void main(String[] args) {
 
-    // Обчислюємо результат виразу
-    int result = (studentNumber + 1) % 15 - 1;
+        // Створюємо об'єкт Scanner для зчитування введення з консолі
+        Scanner scanner = new Scanner(System.in);
 
-    // Виводимо результат на консоль
-    System.out.println("Результат: " + result);
+        // Запитуємо користувача ввести номер студента
+        System.out.print("Введіть номер студента в журналі групи: ");
 
-    // Закриваємо Scanner
-    scanner.close();
- }
+        // Зчитуємо введений номер студента
+        int studentNumber = scanner.nextInt();
+
+        // Обчислюємо результат виразу (studentNumber + 1) % 15 - 1
+        int result = (studentNumber + 1) % 15 - 1;
+
+        // Виводимо результат на консоль
+        System.out.println("Результат: " + result);
+
+        // Закриваємо Scanner, щоб звільнити ресурси
+        scanner.close();
+    }
 }
 */
 
-
+package ua.khpi.oop.melnik03;
 
 import java.util.Scanner;
 
 public class Main {
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -90,6 +93,11 @@ public class Main {
         return resultBuilder.toString();
     }
 }
+
+
+
+
+
 
 
 

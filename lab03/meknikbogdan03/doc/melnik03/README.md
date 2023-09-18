@@ -98,7 +98,6 @@
 
         return resultBuilder.toString();
     }
-}
 
 ```
 
