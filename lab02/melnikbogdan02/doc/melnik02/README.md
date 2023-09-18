@@ -68,9 +68,13 @@
 ```
 
 ## Структура програми
+<<<<<<< HEAD
 
 ```
 
+=======
+```
+>>>>>>> ed0c1245ed4f2af65cf445c3c30cd6052dbdef08
 ├── lab02
     └── melnikbogdan02
         ├── doc
@@ -83,7 +87,10 @@
                         └── melnik02
                             ├── Main.java
                             └── package-info.java
+<<<<<<< HEAD
 
+=======
+>>>>>>> ed0c1245ed4f2af65cf445c3c30cd6052dbdef08
 ```
 
 ## ВАРІАНТИ ВИКОРИСТАННЯ
